@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <title>Promardis || Login</title>
+    </head>
+    <body>
+    <div class="logo">
+      <img src="../logo.png" class="logo-icon">
+    </div>
+    <div class="login-box">
+    <img src="../avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <% include ./partials/messages %>
+            <form method="post">
+            <p>Username</p>
+            <input type="text" id="userame" name="username" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            <input type="submit" name="submit" value="Login">
+            <p>Don't have Account?
+            <a href="/users/register"><br><br>Register</a><br><br>
+            </form>
+            <p>
+      </div>
+
+    </body>
+</html>
